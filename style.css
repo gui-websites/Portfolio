@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+
+    background-color: #222;
+    color: #fff;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main {
+    width: 90%;
+    max-width: 800px;
+
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+
+}
