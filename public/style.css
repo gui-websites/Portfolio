@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+:root {
+    --black: #222;
+    --dark-black: #141414;
+
+    --white: #fff;
+    --dark-white: #efefef;
+
+    --accent: #3299ff;
+
+    /* Spacing will be a multiple of 30px */
+}
+
+body {
+    background-color: var(--dark-white);
+    color: var(--black);
+
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Major Mono Display', 'Quicksand', sans-serif;
+}
+
+section {
+  box-sizing: border-box;
+  padding: 30px;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+section h1 {
+  text-align: center;
+}

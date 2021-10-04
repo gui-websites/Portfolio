@@ -1,0 +1,89 @@
+# == Project descriptions =========================================================================
+
+descent-desc: &descent-desc
+  A website created for a video-game community to showcase the fan-art made and to describe the lore of the game.
+
+percu-desc: &percu-desc
+  The landing page for a music association where they can post media and inform people of upcoming events.
+
+sfinder-desc: &sfinder-desc
+  This app was made in an attempt to locate some tags around Nantes during my university years.
+  It groups all the known tags in a database with accompanying text found alongside them.<br><br>
+  <i>The database server is currently offline, so the app doesn't work</i>
+
+boundary-desc: &boundary-desc
+  I developped this app during the Covid-19 lockdowns as a means to learn learn android development.
+  It's a small prototype made to show the area on a map where one can venture with regards to the distance restrictions.
+
+arrow-desc: &arrow-desc
+  Instead of pointing towards north, this SUPER COMPASS (TM) points towards a selected location,
+  just as it would in a video-game quest<br><br>
+  <i>I'm not too sure why but the app is currently broken ...</i>
+
+mangatech-desc: &manga-desc
+  After borrowing a monstrous amount of manga from friends, I needed to keep tabs on what's been borrowed and who it belongs to.
+  So instead of opening a google note like a normal person, I decided to spend 2 months developping this little gem.
+  It ain't completely finished yet so there might be updates in the future.
+
+
+# == Project links ================================================================================
+
+projects:
+  - name: descent
+    img: /img/descent.png
+    desc: *descent-desc
+    cta:
+      text: Visit page
+      link: https://hailmichael.art
+
+  - name: percu kiesse
+    img: /img/percu.png
+    desc: *percu-desc
+    cta:
+      text: Visit page
+      link: https://associationpercukiesse.fr
+
+  - name: manga-tech
+    img: /img/mangatech.png
+    desc: *manga-desc
+    cta:
+      text: Download APK
+      link: /apk/mangatech.apk
+
+  - name: "[s] finder"
+    img: /img/sfinder.png
+    desc: *sfinder-desc
+    cta:
+      text: Download APK
+      link: /apk/sfinder.apk
+
+  - name: boundary
+    img: /img/boundary.png
+    desc: *boundary-desc
+    cta:
+      text: Download APK
+      link: /apk/boundary.apk
+
+  - name: arrow
+    img: /img/arrow.png
+    desc: *arrow-desc
+    cta:
+      text: Download APK
+      link: /apk/arrow.apk
+
+
+
+# == Social media links ===========================================================================
+
+socials:
+  - icon: mail
+    link: mailto:guillaume.roussin44@gmail.com?subject=Guillaume-prog business inquiry
+
+  - icon: github
+    link: https://github.com/Guillaume-prog
+
+  - icon: instagram
+    link: https://www.instagram.com/french.fry.06/
+
+  - icon: linkedin
+    link: https://www.linkedin.com/in/guillaume-roussin-662a66197/

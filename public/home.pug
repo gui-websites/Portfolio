@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    link(rel="stylesheet", href="/style.css")
+    link(rel="icon", href="/logo.png")
+
+    script(src="https://unpkg.com/feather-icons")
+    script(src="/app.js") 
+
+    title Guillaume Roussin - Portfolio
+body 
+
+  include components/components.pug
+  
+  +header("Hey there, I'm a robotics student that codes for fun :D")
+  
+  +work-section(data.projects)
+  +contact-section(data.socials)
+    
+  footer Copyright Guillaume Roussin - 2021
+  
+style.
+
+  footer {
+    background-color: var(--dark-black);
+    color: var(--white);
+    padding: 30px;
+  }
+
+script.
+  feather.replace()

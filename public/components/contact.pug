@@ -1,0 +1,30 @@
+mixin contact-section(socials)
+  section#contact
+    h1 let's get in touch
+    
+    .info
+      p I'm not currently looking to work for others, but I might consider it if you make a compelling proposal.
+      
+      .socials
+        for s in socials
+          +social(s)
+
+style.
+
+  #contact {
+    background-color: #ddd;
+  }
+
+  #contact .info {
+    margin: 120px auto;
+  }
+  
+  #contact .info .socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    margin-top: 60px;
+  }

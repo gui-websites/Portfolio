@@ -1,0 +1,23 @@
+mixin social(s)
+  a.social(href=s.link, target="_blank")
+    i.icon(data-feather=s.icon)
+
+style.
+  .social {
+    text-decoration: none;
+    
+    display: grid;
+    place-items: center;
+    
+    padding: 15px;
+    border-radius: 15px;
+    
+    background-color: var(--black);
+    color: var(--white);
+    
+    transition: all 150ms;
+  }
+  
+  .social:hover {
+    transform: scale(1.1);
+  }

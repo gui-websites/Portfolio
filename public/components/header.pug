@@ -1,0 +1,56 @@
+mixin header(blurb)
+  header
+    nav
+      h3#title Guillaume-prog
+      .nav-menu
+        a(href="#work") Work
+        a(href="#blog") Blog
+        a(href="#contact") Contact
+        
+    .blurb #{blurb}
+      
+
+style.
+
+  header {
+    background-color: var(--dark-black);
+    color: var(--white);
+    padding-block: 1px;
+  }
+  
+  header nav {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header nav .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  header nav .nav-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  header .blurb {
+    font-size: 2em;
+    text-align: center;
+    
+    width: 90%;
+    max-width: 500px;
+    
+    margin-inline: auto;
+    margin-block: 5em;
+    padding-bottom: 30px;
+  }
+
+  @media(max-width: 650px) {
+    header nav .nav-menu {
+      display: none;
+    }
+  }

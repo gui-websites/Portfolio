@@ -1,0 +1,28 @@
+mixin work-section(projects)
+  section#work
+    h1 my work
+    
+    #grid
+      for p in projects
+        +project(p)
+      
+style.
+
+  #work {
+    min-height: 100%;
+  }
+  
+  #work #grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1000px;
+    margin: auto;
+    
+    position: relative;
+  }
+  
+  @media(max-width: 600px) {
+    #work #grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
