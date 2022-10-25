@@ -7,25 +7,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["Jetbrains Mono", ...defaultTheme.fontFamily.sans],
       },
 
       colors: {
         white: css("white"),
         gray: css("gray"),
+        black: css("black"),
 
-        black: {
-          DEFAULT: css("black"),
-          dark: css("dark-black"),
-        },
-
-        primary: {
-          DEFAULT: css("primary"),
-          light: css("primary-light"),
-          dark: css("primary-dark"),
-        },
-
-        error: css("error"),
+        background: css("bg-black"),
       },
     },
   },

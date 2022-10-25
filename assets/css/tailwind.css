@@ -2,7 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Jetbrains Mono";
+  src: url("~/assets/jetbrains-mono.woff2");
+}
+
 @layer base {
+  :root {
+    --black: #000;
+    --gray: #ddd;
+    --white: #fff;
+
+    --bg-black: rgba(0, 0, 0, 0.4);
+  }
+
   html,
   body,
   #__nuxt {
