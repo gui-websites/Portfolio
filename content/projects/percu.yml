@@ -1,0 +1,16 @@
+name: Percu Kiesse
+logo: percu.png
+date: 2019-2020
+
+link: https://associationpercukiesse.fr
+
+skills:
+  - PHP
+  - MySQL
+
+about: This website was made for a small organisation based in Nantes (France). They provide african dance and drum lessons and needed a way to display posters for upcoming activities, handle new members and application forms, and show images taken during their various activities. They already had a website but it was in need of a redesign to make it easier for new members to navigate.
+
+images:
+  - percu-home.png
+  - percu-events.png
+  - percu-gallery.png

@@ -1,0 +1,13 @@
+name: SFinder
+logo: sfinder.png
+date: 2020-2021
+
+link:
+
+skills:
+  - Java
+  - Android
+
+about: SFinder started out after a friend showed me a series of graffiti art he'd found around Nantes (France). The graffiti was very simple consisting only of a capital S between brackets. What was impressive however was the sheer quantity of them that could be found around the city. These have been supposedly appearing for over ten years. What's more, sometimes the graffiti was accompanied by a couple words that shed light on the artists motivations. In an effort to understand more about this, I developed an app that would allow to store the location of a graffiti as well as the accompanying text on a database so that all the data could be analysed later on. The app has been discontinued but I do plan on relaunching it eventually.
+
+images:

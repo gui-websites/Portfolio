@@ -1,0 +1,23 @@
+name: Guillaume Roussin
+birthday: 22-06-2002
+pronouns: He/Him
+email: guillaume.roussin44@gmail.com
+
+socials:
+  - name: GitHub
+    tag: Guillaume-prog
+    link: https://github.com/Guillaume-prog
+
+  - name: Instagram
+    tag: "@french.fry.06"
+    link: https://www.instagram.com/french.fry.06/
+
+  - name: LinkedIn
+    tag: Guillaume Roussin
+    link: https://www.linkedin.com/in/guillaume-roussin/
+
+about: >
+  Hey there, I'm a up and coming robotics engineer specialising in embedded software development who likes to make websites in his spare time.
+  I aim to create code that is useful to others, mainly through tools that conglomerate data from various places.
+
+  Feel free to check out my projects and if you like what you see or just want to get to know me, hit me up.

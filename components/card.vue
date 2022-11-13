@@ -1,13 +1,16 @@
 <template>
   <transition>
     <div
-      class="absolute inset-0 flex items-end justify-center bg-background px-4"
+      class="fixed inset-0 flex items-end justify-center bg-background"
       @click="onclick"
       ref="bg"
     >
       <div
         class="slide-up-comp flex h-4/5 w-full max-w-3xl flex-col gap-6 rounded-tl-2xl rounded-tr-2xl bg-white p-4 md:p-8"
       >
+        <div ref="chip" class="-my-4 w-full py-4">
+          <div class="mx-auto h-1 w-1/3 rounded-full bg-black md:hidden"></div>
+        </div>
         <slot />
       </div>
     </div>
@@ -16,11 +19,26 @@
 
 <script setup lang="ts">
 const emit = defineEmits(["bg-click"]);
+const swiper = new SwipeHandler();
+const chip = ref<HTMLElement>(null);
 
 const bg = ref();
 const onclick = (e: MouseEvent) => {
   if (e.target == bg.value) emit("bg-click");
 };
+
+swiper.onSwipe((state, pos) => {
+  if (!chip.value) return;
+
+  const rect = chip.value.getBoundingClientRect();
+  const on_chip =
+    pos.x > rect.left &&
+    pos.x < rect.right &&
+    pos.y > rect.top &&
+    pos.y < rect.bottom;
+
+  if (state == "down" && on_chip) emit("bg-click");
+});
 </script>
 
 <style scoped>

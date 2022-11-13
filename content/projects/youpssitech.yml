@@ -1,0 +1,17 @@
+name: BDE Youpssitech
+logo: youpssitech.jpg
+date: 2022-now
+
+link: https://youpssitech.fr
+
+skills:
+  - VueJS
+  - TailwindCSS
+  - PocketBase
+
+about: In early 2022, I helped some friends run for the student council elections at my school by making them a website to show what they were planning. They went on to win the elections and asked me to develop a website for the student council. This is an ongoing project that's teaching me a lot about iterative design. So far the website gathers information about various events, an image gallery with pictures from the events, and information about the people running the council. There also plans to add a merch section as well as a tool to plan out future internships.
+
+images:
+  - youpssitech-home.png
+  - youpssitech-about.png
+  - youpssitech-events.png
