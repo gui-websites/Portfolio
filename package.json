@@ -5,9 +5,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare",
-    "deploy": "DOCKER_HOST=\"ssh://vps\" docker-compose down; DOCKER_HOST=\"ssh://vps\" docker-compose up -d",
-    "compose": "docker-compose down; docker-compose up -d"
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.2",

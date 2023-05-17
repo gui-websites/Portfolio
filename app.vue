@@ -53,6 +53,10 @@ const showCard = ref(false);
 const showAboutCard = ref(false);
 const project_name = ref<ProjectName>(null);
 
+useHead({
+  title: "Guillaume-prog",
+});
+
 type ProjectName =
   | "super-edt"
   | "sfinder"
