@@ -42,6 +42,7 @@
   </main>
 
   <project-card
+    v-if="project_name"
     v-show="showCard"
     @bg-click="showCard = false"
     :project="project_name"
@@ -68,9 +69,9 @@ type ProjectName =
   | null;
 
 const popup = (p: ProjectName) => {
-  console.log("click", project_name.value);
   project_name.value = p;
   showCard.value = true;
+  console.log("click", project_name.value);
 };
 </script>
 

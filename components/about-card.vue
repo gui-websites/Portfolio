@@ -1,5 +1,5 @@
 <template>
-  <Card @bg-click="emit('bg-click')">
+  <Card @bg-click="emit('bg-click')" v-if="data">
     <!-- Header -->
     <header class="flex items-center gap-4">
       <img
@@ -45,7 +45,7 @@
 
 <script setup lang="ts">
 import VueFeather from "vue-feather";
-import { AboutPage } from "~/types";
+import type { AboutPage } from "~/types";
 
 const data = await load<AboutPage>("about");
 

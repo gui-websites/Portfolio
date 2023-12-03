@@ -20,7 +20,7 @@
 <script setup lang="ts">
 const emit = defineEmits(["bg-click"]);
 const swiper = new SwipeHandler();
-const chip = ref<HTMLElement>(null);
+const chip = ref<HTMLElement | null>(null);
 
 const bg = ref();
 const onclick = (e: MouseEvent) => {

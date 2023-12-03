@@ -48,12 +48,12 @@
 
 <script setup lang="ts">
 import VueFeather from "vue-feather";
-import { ProjectPage } from "~/types";
+import type { ProjectPage } from "~/types";
 
 const props = defineProps<{ project: string }>();
 
 const data = ref<ProjectPage | null>(null);
-data.value = await load<ProjectPage>(props.project);
+data.value = await load<ProjectPage>(`projects/${props.project}`);
 // console.log(data.value);
 
 watch(
@@ -62,7 +62,7 @@ watch(
     console.log("Updating project card");
     data.value = await load<ProjectPage>(`projects/${project}`);
     console.log(data.value);
-  }
+  },
 );
 
 const icon = (name: string) => `/images/icons/${name}`;
