@@ -17,12 +17,12 @@
       <section class="relative flex gap-4 md:gap-6 md:py-48">
         <div id="left" class="col">
           <Bloc
-            img="/images/icons/superedt.png"
-            @click="popup('super-edt')"
+            img="/images/icons/vr-hud.png"
+            @click="popup('vr-hud')"
             shape="square"
           />
+          <Bloc img="/images/icons/percu.png" @click="popup('percu')" />
           <Bloc img="/images/icons/sfinder.png" @click="popup('sfinder')" />
-          <Bloc />
         </div>
 
         <div id="right" class="col">
@@ -30,11 +30,12 @@
             img="/images/icons/posh-michael.png"
             @click="popup('descent')"
           />
-          <Bloc img="/images/icons/percu.png" @click="popup('percu')" />
+          <Bloc img="/images/icons/superedt.png" @click="popup('super-edt')" />
           <Bloc
             img="/images/icons/youpssitech.jpg"
             @click="popup('youpssitech')"
           />
+          <Bloc />
         </div>
       </section>
     </div>
@@ -63,6 +64,7 @@ type ProjectName =
   | "descent"
   | "percu"
   | "youpssitech"
+  | "vr-hud"
   | null;
 
 const popup = (p: ProjectName) => {

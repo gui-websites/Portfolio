@@ -17,7 +17,7 @@ type ProjectPage = {
   name: string;
   logo: string;
   date: string;
-  link: string | null;
+  link: { name: string; url: string } | null;
   skills: string[];
   about: string;
   images: string[] | null;

@@ -1,14 +1,12 @@
 name: Descent Art Gallery
 logo: posh-michael.png
-date: 2020-now
-
-link: https://hailmichael.art
+date: 2020-2023
 
 skills:
   - Pug.js
   - NodeJS
 
-about: During 2020 I joined a community based around an indie game being developed. I went on to help the game developer market the game by making a website to present what is was about and give access to the executables when new beta releases came out. Since then the project got discontinued and the developer moved on to other projects. The community lived on despite the game ending and a lot of fan-art was produced. So, in order to find it easily, this website was created to group all the images as well as parts of the lore.
+about: During 2020 I joined a community based around an indie game being developed. I went on to help the game developer market the game by making a website to present what is was about and give access to the executables when new beta releases came out. Since then the project got discontinued and the developer moved on to other projects. The community lived on despite the game ending and a lot of fan-art was produced. So, in order to find it easily, this website was created to group all the images as well as parts of the lore. The website was shut down in late 2023 due to a lack of traffic, the images still live on in the community discord server.
 
 images:
   - descent-home.png

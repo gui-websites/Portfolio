@@ -2,7 +2,9 @@ name: BDE Youpssitech
 logo: youpssitech.jpg
 date: 2022-now
 
-link: https://youpssitech.fr
+link:
+  name: Website
+  url: https://youpssitech.fr
 
 skills:
   - VueJS

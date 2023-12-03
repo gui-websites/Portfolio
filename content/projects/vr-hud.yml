@@ -1,0 +1,17 @@
+name: Companion HUD
+logo: vr-hud.png
+date: 2023-now
+
+link:
+  name: GitHub
+  url: https://github.com/Guillaume-prog/CompanionHUD
+
+skills:
+  - Android
+  - Kotlin
+  - OpenGL
+
+about: I've started working on a companion app for daily life. This would work on a VR headset with passthrough and would overlay useful information on the camera feed. These would include the weather, navigation directions, calendar events, and such. The app will also be able to display notifications from the phone, such as incoming calls, messages, and other notifications. This is a really fun experiment that I enjoy working on in my spare time. You can follow the progress for this project on its dedicated GitHub repository.
+
+images:
+  - bifocal.png

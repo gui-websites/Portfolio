@@ -2,7 +2,9 @@ name: Percu Kiesse
 logo: percu.png
 date: 2019-2020
 
-link: https://associationpercukiesse.fr
+link:
+  name: Website
+  url: https://associationpercukiesse.fr
 
 skills:
   - PHP

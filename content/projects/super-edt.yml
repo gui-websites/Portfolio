@@ -1,15 +1,16 @@
 name: SuperEDT
 logo: superedt.png
-date: 2021-now
-
-link: https://super-edt.fr
+date: 2021-2022
 
 skills:
   - Nuxt
   - TailwindCSS
   - Pocketbase
 
-about: SuperEDT is a project I've been working on since joining my current engineering school. Its aim is to provide useful information to students to help them with their studies. This includes, detailed timetables, information about the curriculum and contact methods for the teachers of each course, upcoming exams and homework, and an overview of their marks. This project although arduous and long in its execution has been one of the most fun and educationnal projects I've undertaken. I've improved my skills in design, data analysis, data visualisation, API usage, full stack development, and programming as a part of a team (up until now most of my projects have been solo). Do be aware this is very much a work in progress.
+about: SuperEDT is a project I've been working on since joining my current engineering school. Its aim is to provide useful information to students to help them with their studies. This includes, detailed timetables, information about the curriculum and contact methods for the teachers of each course, upcoming exams and homework, and an overview of their marks. This project although arduous and long in its execution has been one of the most fun and educationnal projects I've undertaken. I've improved my skills in design, data analysis, data visualisation, API usage, full stack development, and programming as a part of a team (up until now most of my projects have been solo). The project was canceled in 2022 due to a lack of time and resources to continue production. It was a great experience regardless as I learned a lot about UI/UX design and development.
 
 images:
-  - super-edt-1.png
+  - se-calendar.png
+  - se-courses.png
+  - se-todos.png
+  - se-marks.png
